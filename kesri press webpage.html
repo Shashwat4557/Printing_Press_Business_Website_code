@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KESRI PRESS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    /* CSS for header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f5f5f5;
+    }
+
+    .header .logo {
+      font-size: 25px;
+      font-family: 'Sriracha', cursive;
+      color: #000;
+      text-decoration: none;
+      margin-left: 30px;
+    }
+
+    .nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #f5f5f5;
+      margin-right: 20px;
+    }
+
+    .nav-items a {
+      text-decoration: none;
+      color: #000;
+      padding: 35px 20px;
+    }
+
+    /* CSS for main element */
+    .intro {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 600px;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://st.depositphotos.com/1000417/1255/v/600/depositphotos_12551286-stock-illustration-printing-word-cloud.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .intro h1 {
+      font-family: sans-serif;
+      font-size: 60px;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .intro p {
+      font-size: 20px;
+      color: #d1d1d1;
+      text-transform: uppercase;
+      margin: 20px 0;
+    }
+
+    .intro button {
+      background-color: #5edaf0;
+      color: #000;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+    }
+
+    .achievements {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 80px;
+    }
+
+    .achievements .work {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .achievements .work i {
+      width: fit-content;
+      font-size: 50px;
+      color: #333333;
+      border-radius: 50%;
+      border: 2px solid #333333;
+      padding: 12px;
+    }
+
+    .achievements .work .work-heading {
+      font-size: 20px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .achievements .work .work-text {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+    .about-me {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 80px;
+      border-top: 2px solid #eeeeee;
+    }
+
+    .about-me img {
+      width: 500px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .about-me-text h2 {
+      font-size: 30px;
+      color: #333333;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    .about-me-text p {
+      font-size: 15px;
+      color: #585858;
+      margin: 10px 0;
+    }
+
+    /* CSS for footer */
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #302f49;
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #fff;
+    }
+
+    .bottom-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 0;
+    }
+
+    .bottom-links .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .bottom-links .links span {
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .bottom-links .links a {
+      text-decoration: none;
+      color: #a1a1a1;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Kesri Press</a>
+    <nav class="nav-items">
+      <i class="fas fa-home"></i>
+      <a href="#">Home</a>
+      <i class="fas fa-book"></i>
+      <a href="#">About</a>
+      <i class="fas fa-phone-volume"></i>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <div class="intro">
+      <h1>PRINTING MATERIALS AND STATIONARY ITEMS</h1>
+      <p>High-quality online printing services for business and personal use.</p>
+      <P>YOUR NAME, YOUR PRIDE</P>
+      <button>Explore More</button>
+    </div>
+    <div class="achievements">
+      <div class="work">
+        <i class="fas fa-handshake"></i>
+        <p class="work-heading">Top Products</p>
+        <p class="work-text">All types of cards :- Wedding Cards, Visting Card, Birthday Cards, etc; Photo Frames, Banner - Holdings, Pemplates, Books, Covers, Offset Materials, Screen Printing, Stationary Materiasl, etc.</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-truck"></i>
+        <p class="work-heading">Delivery Locations</p>
+        <p class="work-text">We deliver in all the places of the India from major cities like Delhi, Chennai, Gujrat, Mumbai, Kolkata, Bhopal,etc. to minor cities like Banda, Kanpur, Assam, Shimla, Aurangabad, Patna, etc.</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-hiking"></i>
+        <p class="work-heading">Work Experience</p>
+        <p class="work-text">Our shop have 50 years of experience in the market with Governament registration certifictation of GST adn working with many Government sub-systems offices.</p>
+      </div>
+    </div>
+    <div class="about-me">
+      <div class="about-me-text">
+        <h2>ABOUT THE WEBSITE :-</h2>
+        <p>
+          KESRI PRESS is India's #1 digital photo personalization and printing platform. Through our world-class and proprietary print personalization infrastructure & our critically acclaimed products, 
+          KESRI PRESS has delivered millions of customer stories through gorgeously crafted photo products. Whether it's those extra special occasions like birthdays, weddings, vacations or just some memorable moments of everyday life.
+          Our aim is to help our users in documenting every big & small moment of their life in a style that suits & defines them.
+        </p>
+        <P>
+          <h4>"if it's special to you, it's special to us!"</h4>
+        </P>
+        <P>
+          <h4>#Think_personalization #Think_KESRI_PRESS!!!!</h4>
+        </p>
+
+        <br>
+        <h3>More About Us :-</h3>
+        <p>
+          We at KESRI PRESS provide excellent personalized online printing services. We have been successfully catering to our clients with impressive digital printing services. Through us, get your interactive business projects adorned with a myriad of colors and stunning designs to create a lasting impression. 
+          Simply, visit our online platform, customize your preferences, and place your order from the comfort of your office or home.
+        </p>
+        <P>
+          For more than 20 years, KESRI PRESS has helped business owners, entrepreneurs and individuals create their identities with custom designs and professional marketing. 
+          Our online printing services are intended to help you find high quality customised products you need - visiting cards, personalized clothing, gifting products, and much more.
+        </p>
+        <ul>
+
+          <li>
+            <h4>Even Low Quantities @ Best Prices</h4>
+          <ul>
+            <p></p>
+            <li>We offer low/ single product quantities at affordable prices.</li>
+            <p></p>
+          </ul>
+          </li>
+
+          <li>
+            <h4>High-Quality Products and Easy design</h4>
+          <ul>
+            <p></p>
+            <li>Our wide selection of high-quality products and online design tools make it easy for you to customize and order your favourite products.</li>
+            <p></p>
+          </ul>
+          </li>
+
+          <li>
+            <h4>Free replacement or Full Refund</h4>
+          <ul>
+            <p></p>
+            <li>We stand by everything we sell. So if you're not satisfied, we'll make it right.</li>
+            <p></p>
+          </ul>
+          </li>
+        </ul>
+
+<br>
+<h3>JUST RELAX....</h3>
+<ul>
+  <li>
+    <h4>Print exactly what you need</h4>
+    <ul>
+      <p></p>
+      <li>Enjoy flexible order volumes - print products with no minimums and save money by ordering in bulk.</li>
+      <p></p>
+    </ul>
+    </li>
+
+    <li>
+      <h4>Be where your customers are</h4>
+      <ul>
+        <p></p>
+        <li>Have your orders printed and prepared for delivery in strategically placed fulfillment centers close to your customers.</li>
+        <p></p>
+      </ul>
+      </li>
+
+      <li>
+        <h4>Automate your order management</h4>
+        <ul>
+          <p></p>
+          <li>Leave order handling to us and invest the time you save into growing a strong brand.</li>
+          <p></p>
+        </ul>
+        </li>
+
+        <li>
+          <h4>Get the full branding package</h4>
+          <ul>
+            <p></p>
+            <li>Create brand awareness with custom labels, packaging, packing slips, and inserts.</li>
+            <p></p>
+          </ul>
+          </li>
+</ul>
+
+
+<br>
+<h3>TRUST ONLY THE BEST OFFSET PRINTING PRESS IN INDIA</h3>
+<p>
+  Our years-long industry experience in offset printing helps us to deliver supreme print quality in every printing job.
+  We have been constantly upgrading our printing technology to keep pace with the evolving technological trends.
+  Our high quality, latest machines fabricate quality throughout the printing process.  
+</p>
+<p>
+  To complement, our design principles based on traditional quality offset printing ensure production of immaculate business marketing solutions. 
+  In addition, we follow a transparent procedure from conceptualization to customization and delivery that meets your satisfaction. 
+  Therefore, confidently promote your brand through our affordable, turnkey marketing collaterals.
+</p>
+
+<br>
+<h3>WHY CHOOSE INKPRINT FOR YOUR DIGITAL PRINTING AND OFFSET PRINTING SOLUTIONS?</h3>
+<p>
+  Our extensive experience in the field of digital printing and offset printing help us deliver superlative custom printing services in faster turnaround time. 
+  Here are vital features that make us the best digital and offset printing solution providers in INDIA:
+</p>
+<ul>
+
+  <li>
+    <h4>Multiple printing options</h4>
+    <ul>
+      <li>
+        We cater to diversified printing options like short runs, variable data printing, print on demand as well as personalized printing solutions in swift turnaround time.
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <h4>Versatile business marketing solutions</h4>
+    <ul>
+      <li>
+        We offer a huge collection of marketing products to help you boost your business. 
+        Select from our online collection of printed business marketing solutions to create brochures, newsletters, posters, flyers, business stationery, catalogs, magazines and more. 
+      </li>
+      <li>
+        Our versatile printing methods and advanced printing quality help us deliver nothing less than the best for our clientele.
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <h4>Reliable printing services</h4>
+    <ul>
+      <li>
+        We at KESRI PRESS believe in delivering reliable as well as high-quality digital printing services in India.
+      </li>
+      <li>
+        Our online print shop makes possible to serve our customers until their utmost satisfaction.
+      </li>
+      <li>
+        Whether you need impressive business cards and letterheads or flyers and banners for your upcoming marketing event, you will get everything personalized to your specific business requirements.
+        We convert your ideas to print until you are satisfied with the results.
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    <h4>Exceptionally good customer service</h4>
+    <ul>
+      <li>
+        We ensure an excellent customer experience right from the order placement to delivery. Our cordial experts are available to take customer queries. 
+      </li>
+      <li>
+        Besides, our immaculate after-sale services ensure utmost customer satisfaction.
+      </li>
+    </ul>
+   </li>
+
+   <li>
+    <h4>Cost-effective printing services</h4>
+    <ul>
+      <li>
+        Our exceptional value-for-money deals get you the best services at most affordable prices.
+      </li>
+    </ul>
+   </li>
+
+   <li>
+    <h4>Flexible payment options</h4>
+    <ul>
+      <li>
+        You can visit our online printing store and place your orders. You are free to pay online or select from alternative payment options like cheque or NEFT.
+      </li>
+    </ul>
+   </li>
+
+</ul>
+
+<br>
+<h3>REACH OUR TEAM TO CUSTOMIZE YOUR PREFERENCES</h3>
+<p>
+  Our team will help you decide what packages will suit your business preferences. Get100, or 200, or 500 or more visiting cards, letterheads, stationery envelopes, brochures, etc.to complement your business activities from our offset Digital Printing.
+</p>
+<P>
+  Marketing the product becomes easy when you have the right material to give away. If you like publicity through the flyers, then that is the way to start. 
+  It is an investment that helps a business to grow in the right direction. Get the words composed and pass it on to us.</p>
+</P>
+
+<br>
+<h3>OUTDOOR PRINTING SERVICES</h3>
+<p>
+  Or, perhaps your business needs Banners and Standees. This makes passers-by to take note of your shop and perhaps drop in with their own requests. 
+  If your business is a crowd-popular one, then this is the best alternative. You don't have to invest much, and you get all the attention you need. 
+  Choose the colors your business needs and you have the banner you want. We make your dreams a reality through our innovative printing solutions.
+</p>
+<P>
+  You can even have calendars and diaries printed as memorabilia for the staff and your regular customers. 
+  There is no better way to thank them for their participation in your success. 
+  Be there with them when they need you; give them the tokens of appreciation, and you are sure to make your business grow. 
+</P>
+<p>
+  So, what are you waiting for? Join hands with the best printing press in India, for all your print-related solutions!
+</p>
+
+      </div>
+      <img src="https://th.bing.com/th/id/OIP.Y9UI3QL1oW8gXvjWbzxeHgHaE8?w=248&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="me">
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="copy">&copy; Copyright 2023 Kesri Press. All Rights are reserved.</div>
+    <div class="bottom-links">
+      <div class="links">
+        <span>More Info</span>
+        <i class="far fa-building"></i>
+        <a href="#">Home</a>
+        <i class="far fa-paper-plane"></i>
+        <a href="#">About</a>
+        <i class="fas fa-mobile-alt"></i>
+        <a href="#">Contact</a>
+        <p>+91 91291-14858</p>
+        <p>+91 94151-89881</p>
+        <p>+91 81153-32787</p>
+      </div>
+      <div class="links">
+        <span>Social Links</span>
+        <a href="#"><i class="fab fa-google-play"></i></a>
+        <a href="#"><i class="material-icons">email</i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
